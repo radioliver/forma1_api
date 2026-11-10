@@ -1,0 +1,20 @@
+@host = http://localhost:3000
+
+###
+GET  http://localhost:3000/api/versenyzok
+
+### 
+GET  {{host}}/api/versenyzok/6
+
+###
+GET {{host}}/api/versenyzok/100
+###
+GET {{host}}/api/versenyzok/ssfsf
+
+###
+POST {{host}}/api/versenyzok
+
+
+###
+
+DELETE {{host}}/api/versenyzok/2
